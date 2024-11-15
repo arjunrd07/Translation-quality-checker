@@ -1,10 +1,10 @@
-#Translation Quality Checker
-#Overview
+# Translation Quality Checker
+# Overview
 The Translation Quality Checker is an advanced machine translation quality assessment tool. It evaluates translations using a variety of metrics, including BLEU, ROUGE, METEOR, Levenshtein Distance, Cosine Similarity, and Sentence Embedding Similarity. This project uses state-of-the-art models like Helsinki-NLP for machine translation and SentenceTransformer for semantic analysis.
 
 The tool is designed for researchers, linguists, and AI developers to evaluate and improve machine-generated translations effectively.
 
-#Features
+# Features
 Translation of text using Helsinki-NLP models.
 Back-translation for quality assessment.
 Evaluation metrics:
@@ -14,7 +14,7 @@ METEOR: Evaluates precision, recall, and alignment.
 Levenshtein Distance: Quantifies edit distance.
 Cosine Similarity: Compares TF-IDF vectors of sentences.
 Sentence Embedding Similarity: Uses SBERT for semantic similarity.
-#Project Structure
+# Project Structure
 bash
 Copy code
 translation-quality-checker/
@@ -25,8 +25,8 @@ translation-quality-checker/
 ├── docs/
 │   ├── Presentation.pptx          # Project presentation
 ├── README.md                      # Project overview (this file)
-#Getting Started
-#Prerequisites
+# Getting Started
+# Prerequisites
 Python 3.8 or later
 Git installed
 Visual Studio Code (optional)
@@ -49,7 +49,7 @@ Install dependencies:
 bash
 Copy code
 pip install -r requirements.txt
-#Usage
+# Usage
 Running the Application
 Navigate to the code/ directory.
 Launch the Gradio interface:
@@ -79,7 +79,7 @@ Uses SBERT (Sentence BERT) to compute semantic similarity.
 Why Helsinki-NLP?
 Helsinki-NLP offers specialized models for a wide range of languages, optimized for translation tasks, and is highly customizable. It outperforms generic translation APIs like Google Translate or Amazon Translate for research purposes.
 
-#Future Enhancements
+# Future Enhancements
 Develop a more advanced weight adjustment system using data analytics.
 Extend support for additional metrics like TER (Translation Edit Rate).
 Improve the interface for a smoother user experience.
